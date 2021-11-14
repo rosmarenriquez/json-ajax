@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Rosmar Enriquez | Week 09</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Rosmar Enriquez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assign09.css" rel="stylesheet" media="screen" type="text/css"/>
+        <script src="assign09.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Rosmar - AJAX & JSON </h1>
+        </header>
+        <section id="main">
+            <div id="country">
+                <h2>Cities</h2>
+                <h3>Please select a country from the drop-down list:</h3>
+                <select name="countrytxt" id="countrytxt" onChange="getCities()">
+                    <option value="0">select</option>
+                    <option value="1">USA</option>
+                    <option value="2">CANADA</option>
+                    <option value="3">MEXICO</option>
+                    <option value="4">RUSSIA</option>
+                </select>
+                <button onClick="clearCityTable()">Reset</button>
+                <h3>Ten largest cities and their respective populations:</h3>
+                <table id="cityTable">
+                    <thead>
+                        <tr>
+                            <th>City</th>
+                            <th>Population</th>
+                        </tr>
+                    </thead>
+                </table> 
+            </div>
+            <div id="students">
+                <h2>Students</h2>
+                <h3>Please enter your file name (json.txt or json1.txt):</h3>
+                <input name="fileInput" onBlur="validateFileName(this.value)"
+                       onFocus="resetFileName(this.value)"
+                       id="parseJSON" value="json.txt" size="15">
+                <button onClick="getStudents()">Parse JSON</button>
+                <button onClick="clearStudentTable()">Reset JSON</button>
+                <h3>Student Data:</h3>
+                <table id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>First</th>
+                            <th>Last</th>
+                            <th>Address</th>
+                            <th>Major</th>
+                            <th>GPA</th>
+                        </tr>
+                    </thead>
+                </table> 
+            </div>
+        </section>
+        <footer>         
+            &copy; 2021 | Rosmar Enriquez | CS 213 Assignments
+        </footer>
+    </body>
+</html>
