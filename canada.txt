@@ -1,0 +1,10 @@
+Toronto	    2,600,000
+Montreal	 1,600,000
+Calgary	    1,019,942
+Ottawa	   812,129
+Edmonton	 712,391
+Mississauga    668,549
+North York	  636,000
+Winnipeg	 632,063
+Scarborough    600,000
+Vancouver  600,000

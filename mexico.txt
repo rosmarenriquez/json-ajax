@@ -1,0 +1,10 @@
+Mexico City	12,294,193
+Iztapalapa	 1,815,786
+Ecatepec	 1,655,015
+Guadalajara	 1,495,182
+Puebla	 1,434,062
+Ciudad Juarez	1,321,004
+Tijuana	 1,300,983
+Leon	 1,238,962
+Zapopan  1,142,483
+Monterrey    1,135,512

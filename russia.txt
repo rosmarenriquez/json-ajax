@@ -1,0 +1,10 @@
+Moscow	 10,381,222
+Saint Petersburg	 5,028,000
+Novosibirsk	 1,419,007
+Yekaterinburg	 1,349,772
+Nizhniy Novgorod		 1,284,164
+Samara	 1,134,730
+Omsk	 1,129,281
+Kazan	 1,104,738
+Ufa	 1,033,338
+Volgograd	 1,011,417
